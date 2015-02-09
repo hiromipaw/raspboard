@@ -1,0 +1,35 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #9c4274;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.3);
+
+$weather-background: rgba(255, 255, 255, 0.2);
+
+// ----------------------------------------------------------------------------
+// Widget-weather styles
+// ----------------------------------------------------------------------------
+.widget-weather {
+
+  background-color: $weather-background;
+
+  i.wi {
+    color: #fff;
+    font-size: 500%;
+  }
+
+  .title {
+    color: $title-color;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .updated-at {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+}
